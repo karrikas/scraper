@@ -1,0 +1,7 @@
+/vendor
+/cache
+/beers*
+
+
+*.log
+proxy.txt

@@ -1,0 +1,17 @@
+{
+    "name": "karrikas/scraper",
+    "type": "library",
+    "description": "web scraper php framework",
+    "keywords": ["framework", "scraper"],
+    "autoload": {
+        "psr-4": {"Scraper\\": "src/"}
+    },
+    "require": {
+        "symfony/console": "^3.3",
+        "fabpot/goutte": "^3.2",
+        "tedivm/stash": "^0.14.2",
+        "symfony/dom-crawler": "^3.3",
+        "symfony/browser-kit": "^3.3",
+        "monolog/monolog": "^1.23"
+    }
+}
