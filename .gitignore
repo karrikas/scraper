@@ -1,7 +1,7 @@
 /vendor
 /cache
-/beers*
-
+/var/logs
+/var/cache
 
 *.log
 proxy.txt
