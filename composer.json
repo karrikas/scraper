@@ -1,11 +1,21 @@
 {
     "name": "karrikas/scraper",
     "type": "library",
-    "description": "web scraper php framework",
+    "description": "web scraper",
     "keywords": ["framework", "scraper"],
+    "homepage": "https://github.com/karrikas/scraper",
+    "license": "MIT",
     "autoload": {
         "psr-4": {"Scraper\\": "src/"}
     },
+    "authors": [
+        {
+            "name": "karrikas",
+            "email": "karrikas@karrikas.com",
+            "homepage": "http://karrikas.com",
+            "role": "Developer"
+        }
+    ],
     "config": {
         "bin-dir": "bin"
     },
@@ -19,5 +29,10 @@
     },
     "require-dev": {
         "phpunit/phpunit": "^6.5"
+    },
+    "autoload": {
+        "psr-0": {
+            "Monolog": "src"
+        }
     }
 }
